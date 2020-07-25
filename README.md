@@ -17,7 +17,7 @@ To start the server in development mode you need to:
 - run it  
   `go run main.go run -vv`
   
-## Dashboard
+### Dashboard
 
 - install dependencies
   ```
