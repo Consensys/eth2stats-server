@@ -1,0 +1,20 @@
+{
+    "networks": [
+        {
+            "name": "Sapphire Testnet",
+            "path": "/sapphire-testnet",
+            "joinURL": "https://prylabs.net/participate",
+            "HTTP_API": "https://api.sapphire.eth2stats.io/api",
+            "WS_API": "wss://api.sapphire.eth2stats.io/ws",
+            "SERVER_ADDR": "grpc.sapphire.eth2stats.io:443"
+        },
+        {
+            "name": "Lighthouse Testnet5",
+            "path": "/lighthouse-testnet5",
+            "joinURL": "https://lighthouse-book.sigmaprime.io/become-a-validator.html",
+            "HTTP_API": "https://api.summer.eth2stats.io/api",
+            "WS_API": "wss://api.summer.eth2stats.io/ws",
+            "SERVER_ADDR": "grpc.summer.eth2stats.io:443"
+        }
+    ]
+}

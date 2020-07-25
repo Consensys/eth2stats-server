@@ -1,0 +1,3 @@
+client-versions:
+  - namespace: eth2stats-client
+    version: v0.0.4

@@ -1,0 +1,126 @@
+@import "./tailwind.pcss";
+@import "animate.css";
+
+body {
+    background: #172232;
+    font-family: 'Barlow', sans-serif;
+}
+
+.logo-text {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1600px;
+}
+
+.transition {
+    transition: 0.5s;
+}
+
+.bg-white-opacity-90 {
+    background-color: rgb(255, 255, 255, 0.9);
+}
+
+button {
+    outline: none !important;
+}
+
+.bg-darkblue-100 {
+    background-color: #172232;
+}
+
+.bg-darkblue-200 {
+    background-color: #0F1927;
+}
+
+.border-darkblue-100 {
+    border-color: #172232;
+}
+
+.border-darkblue-200 {
+    border-color: #0F1927;
+}
+
+.font-xxs {
+    font-size: 10px;
+}
+
+.tooltip {
+    background: #283A53 !important;
+    border-radius: 6px !important;
+    color: #8399B8 !important;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.15) !important;
+}
+
+.tooltip.place-top:after {
+    border-top-color: #283A53 !important;
+}
+
+.tooltip.place-right:after {
+    border-right-color: #283A53 !important;
+}
+
+.timer {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.rsm-geography:focus { outline: none; }
+
+.rsm-svg {
+    width: 100%;
+    min-width: 800px;
+}
+
+.text-alethio-gray {
+    color: #718096;
+}
+
+.online, .online .green, .marker, .text-alethio-green {
+    color: #36958D;
+}
+
+.online .orange, .marker.orange, .text-alethio-orange {
+    color: #EFC865;
+}
+
+.online .red, .marker.red, .text-alethio-red {
+    color: #954A51;
+}
+
+.offline {
+	color: #586A82;
+}
+
+.flex-break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.flex-basis {
+	flex-basis: 0;
+}
+
+.overflow-anchor-none {
+	overflow-anchor: none;
+}
+
+.pill {
+    @apply inline-block border py-1 px-3 border-white text-blue-500;
+}
+
+.pill:hover {
+    @apply bg-gray-200 border-gray-200;
+}
+
+.pill-active {
+    @apply inline-block border py-1 px-3 border-blue-500 bg-blue-500 text-white;
+}
+
+.inputs {
+    @apply block appearance-none rounded-none w-full text-gray-700 bg-gray-200 border border-gray-200 px-3 py-2 mb-1 leading-tight;
+}
+
+.inputs:focus {
+    @apply outline-none bg-white border-gray-500;
+}
