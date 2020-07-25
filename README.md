@@ -32,3 +32,7 @@ To start the server in development mode you need to:
 - in two terminals run  
   `npm run start`  
   `npm run watch`
+  
+### Client
+
+[eth2stats-client repo](https://github.com/Alethio/eth2stats-client)
