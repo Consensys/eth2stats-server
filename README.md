@@ -1,7 +1,6 @@
 # eth2stats-server
 
 You need to run one instance of the server per configured network. 
-The dashboard can connect to multiple networks so you only need a single instance running.
 
 ### Server
 
@@ -19,19 +18,7 @@ To start the server in development mode you need to:
   
 ### Dashboard
 
-- install dependencies
-  ```
-  cd dashboard
-  npm install
-  npm run install-dev
-  ```
-  
-- create a `config.dev.jsonc`
-  `cp config/config.dev.sample.jsonc config/config.dev.jsonc`
-  
-- in two terminals run  
-  `npm run start`  
-  `npm run watch`
+[eth2stats-dashboard  repo](https://github.com/ConsenSys/eth2stats-dashboard)
   
 ### Client
 
